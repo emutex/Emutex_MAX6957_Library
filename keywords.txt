@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For Emutex_MAX9867
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Emutex_MAX9657	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin			KEYWORD2
+end				KEYWORD2
+getDeviceCount	KEYWORD2
+testLedOutputs	KEYWORD2
+setLedIntensity	KEYWORD2
+setOutput		KEYWORD2
+updateOutputs	KEYWORD2
+resetOutputs	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

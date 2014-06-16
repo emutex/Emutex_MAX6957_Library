@@ -1,5 +1,5 @@
-Emutex 56-Port GPIO Shield Library
-##################################
+# Emutex 56-Port GPIO Shield Library
+####################################
 
 This is an Arduino library for the Emutex 56-Port GPIO shield, based on
 the Maxim Integrated MAX9657 I/O Expander and LED Display Driver.

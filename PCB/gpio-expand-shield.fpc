@@ -1,0 +1,2463 @@
+[options]
+
+version: 1.359
+file_version: 1.344
+project_name: "shield"
+full_library_folder: "c:\program files (x86)\freepcb\lib"
+CAM_folder: "C:\work\pcb\shield\CAM"
+ses_file_path: ""
+netlist_file_path: ""
+SMT_connect_copper: "0"
+default_glue_width: "635000"
+dsn_flags: "0"
+dsn_bounds_poly: "0"
+dsn_signals_poly: "0"
+autosave_interval: 0
+auto_ratline_disable: "0"
+auto_ratline_disable_min_pins: "100"
+netlist_import_flags: 902
+units: MIL
+
+visible_grid_spacing: 2540000.000000
+  visible_grid_item: 100MIL
+  visible_grid_item: 125MIL
+  visible_grid_item: 200MIL
+  visible_grid_item: 250MIL
+  visible_grid_item: 400MIL
+  visible_grid_item: 500MIL
+  visible_grid_item: 1000MIL
+  visible_grid_item: 1MM
+  visible_grid_item: 2MM
+  visible_grid_item: 2.5MM
+  visible_grid_item: 4MM
+  visible_grid_item: 5MM
+  visible_grid_item: 10MM
+  visible_grid_item: 20MM
+  visible_grid_item: 25MM
+  visible_grid_item: 40MM
+  visible_grid_item: 50MM
+  visible_grid_item: 100MM
+
+placement_grid_spacing: 254000.000000
+  placement_grid_item: 10MIL
+  placement_grid_item: 20MIL
+  placement_grid_item: 25MIL
+  placement_grid_item: 40MIL
+  placement_grid_item: 50MIL
+  placement_grid_item: 100MIL
+  placement_grid_item: 200MIL
+  placement_grid_item: 250MIL
+  placement_grid_item: 400MIL
+  placement_grid_item: 500MIL
+  placement_grid_item: 1000MIL
+  placement_grid_item: 0.1MM
+  placement_grid_item: 0.2MM
+  placement_grid_item: 0.25MM
+  placement_grid_item: 0.4MM
+  placement_grid_item: 0.5MM
+  placement_grid_item: 1MM
+  placement_grid_item: 2MM
+  placement_grid_item: 2.5MM
+  placement_grid_item: 4MM
+  placement_grid_item: 5MM
+  placement_grid_item: 10MM
+
+routing_grid_spacing: 127000.000000
+  routing_grid_item: 1MIL
+  routing_grid_item: 2MIL
+  routing_grid_item: 2.5MIL
+  routing_grid_item: 3.33326772MIL
+  routing_grid_item: 4MIL
+  routing_grid_item: 5MIL
+  routing_grid_item: 6.66602362MIL
+  routing_grid_item: 10MIL
+  routing_grid_item: 12.5MIL
+  routing_grid_item: 16.66602362MIL
+  routing_grid_item: 20MIL
+  routing_grid_item: 25MIL
+  routing_grid_item: 40MIL
+  routing_grid_item: 50MIL
+  routing_grid_item: 0.01MM
+  routing_grid_item: 0.02MM
+  routing_grid_item: 0.04MM
+  routing_grid_item: 0.05MM
+  routing_grid_item: 0.1MM
+  routing_grid_item: 0.2MM
+  routing_grid_item: 0.25MM
+  routing_grid_item: 0.4MM
+  routing_grid_item: 0.5MM
+  routing_grid_item: 1MM
+  routing_grid_item: 2MM
+  routing_grid_item: 2.5MM
+  routing_grid_item: 4MM
+  routing_grid_item: 5MM
+  routing_grid_item: 10MM
+
+snap_angle: 45
+
+fp_visible_grid_spacing: 2540000.000000
+  fp_visible_grid_item: 100MIL
+  fp_visible_grid_item: 125MIL
+  fp_visible_grid_item: 200MIL
+  fp_visible_grid_item: 250MIL
+  fp_visible_grid_item: 400MIL
+  fp_visible_grid_item: 500MIL
+  fp_visible_grid_item: 1000MIL
+  fp_visible_grid_item: 1MM
+  fp_visible_grid_item: 2MM
+  fp_visible_grid_item: 2.5MM
+  fp_visible_grid_item: 4MM
+  fp_visible_grid_item: 5MM
+  fp_visible_grid_item: 10MM
+  fp_visible_grid_item: 20MM
+  fp_visible_grid_item: 25MM
+  fp_visible_grid_item: 40MM
+  fp_visible_grid_item: 50MM
+  fp_visible_grid_item: 100MM
+
+fp_placement_grid_spacing: 254000.000000
+  fp_placement_grid_item: 10MIL
+  fp_placement_grid_item: 20MIL
+  fp_placement_grid_item: 25MIL
+  fp_placement_grid_item: 40MIL
+  fp_placement_grid_item: 50MIL
+  fp_placement_grid_item: 100MIL
+  fp_placement_grid_item: 200MIL
+  fp_placement_grid_item: 250MIL
+  fp_placement_grid_item: 400MIL
+  fp_placement_grid_item: 500MIL
+  fp_placement_grid_item: 1000MIL
+  fp_placement_grid_item: 0.1MM
+  fp_placement_grid_item: 0.2MM
+  fp_placement_grid_item: 0.25MM
+  fp_placement_grid_item: 0.4MM
+  fp_placement_grid_item: 0.5MM
+  fp_placement_grid_item: 1MM
+  fp_placement_grid_item: 2MM
+  fp_placement_grid_item: 2.5MM
+  fp_placement_grid_item: 4MM
+  fp_placement_grid_item: 5MM
+  fp_placement_grid_item: 10MM
+
+fp_snap_angle: 45
+
+fill_clearance: 254000
+mask_clearance: 203200
+thermal_width: 254000
+min_silkscreen_width: 127000
+board_outline_width: 127000
+hole_clearance: 381000
+pilot_diameter: 254000
+annular_ring_for_pins: 177800
+annular_ring_for_vias: 127000
+shrink_paste_mask: 0
+cam_flags: 1
+cam_layers: 7340095
+cam_drill_file: 1
+cam_units: 2
+cam_n_x: 1
+cam_n_y: 1
+cam_space_x: 0
+cam_space_y: 0
+
+report_options: 0
+drc_check_unrouted: 0
+drc_trace_width: 254000
+drc_pad_pad: 254000
+drc_pad_trace: 254000
+drc_trace_trace: 254000
+drc_hole_copper: 381000
+drc_annular_ring_pins: 177800
+drc_annular_ring_vias: 127000
+drc_board_edge_copper: 635000
+drc_board_edge_hole: 635000
+drc_hole_hole: 635000
+drc_copper_copper: 254000
+
+default_trace_width: 254000
+default_via_pad_width: 711200
+default_via_hole_width: 355600
+n_width_menu: 7
+  width_menu_item: 1 152400 711200 355600
+  width_menu_item: 2 203200 711200 355600
+  width_menu_item: 3 254000 711200 355600
+  width_menu_item: 4 304800 711200 355600
+  width_menu_item: 5 381000 711200 355600
+  width_menu_item: 6 508000 711200 355600
+  width_menu_item: 7 635000 711200 355600
+
+n_copper_layers: 2
+  layer_info: "selection" 0 255 255 255 1
+  layer_info: "background" 1 0 0 0 1
+  layer_info: "visible grid" 2 255 255 255 1
+  layer_info: "highlight" 3 255 255 255 1
+  layer_info: "DRC error" 4 255 128 64 1
+  layer_info: "board outline" 5 0 0 255 1
+  layer_info: "rat line" 6 255 0 255 1
+  layer_info: "top silk" 7 255 255 0 1
+  layer_info: "bottom silk" 8 255 192 192 1
+  layer_info: "top sm cutout" 9 160 160 160 1
+  layer_info: "bot sm cutout" 10 95 95 95 1
+  layer_info: "thru pad" 11 0 0 255 1
+  layer_info: "top copper" 12 0 255 0 1
+  layer_info: "bottom copper" 13 255 0 0 1
+
+[footprints]
+
+name: "8X1HDR-100"
+author: "Mark"
+source: "PRINTED CIRCUIT DESIGN METHODS PAGE 411"
+  units: MIL
+  sel_rect: -42.5 -42.5 742.5 42.5
+  ref_text: 50 600 -400 0 7
+  value_text: 50 600 -500 0 7
+  centroid: 0 350 0 0
+  n_pins: 8
+    pin: "1" 35 700 0 0
+      top_pad: 2 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 2 65 25 25 0
+    pin: "3" 35 100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "5" 35 200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "7" 35 300 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "9" 35 400 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "11" 35 500 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "13" 35 600 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "15" 35 0 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+
+name: "mark-res"
+  units: MIL
+  sel_rect: -102.5 -45 292.5 45
+  ref_text: 100 100 200 0 10
+  value_text: 100 204.724409 78.740157 0 10
+  centroid: 0 0 0 0
+  outline_polyline: 10 -10 0
+    next_corner: 30 0 0
+    next_corner: 40 30 0
+    next_corner: 60 -30 0
+    next_corner: 80 30 0
+    next_corner: 100 -30 0
+    next_corner: 120 30 0
+    next_corner: 120 30 0
+    next_corner: 140 -30 0
+    next_corner: 150 0 0
+    next_corner: 190 0 0
+  n_pins: 2
+    pin: "1" 35 -60 0 0
+      top_pad: 1 65 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 0 0 0 0
+    pin: "2" 35 250 0 0
+      top_pad: 1 65 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 0 0 0 0
+
+name: "6X1HDR-100"
+author: "Mark"
+source: "PRINTED CIRCUIT DESIGN METHODS PAGE 411"
+  units: MIL
+  sel_rect: -42.5 -42.5 542.5 42.5
+  ref_text: 50 400 400 0 7
+  value_text: 50 400 300 0 7
+  centroid: 0 250 0 0
+  n_pins: 6
+    pin: "1" 35 0 0 0
+      top_pad: 2 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 2 65 25 25 0
+    pin: "3" 35 100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "5" 35 200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "7" 35 300 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "9" 35 400 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "11" 35 500 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+
+name: "max6957-ssop36"
+author: "Mark"
+source: "SURFACE MOUNT DESIGN AND LAND PATTERN STANDARD SUBSECTION 9.3 (PAGE 3 OF 4)"
+  units: NM
+  sel_rect: -1181000 -1254000 14781000 10454000
+  ref_text: 1270000 14800000 6000000 0 177800
+  value_text: 1270000 14800000 2000000 0 177800
+  centroid: 0 9525000 6500000 0
+  outline_polyline: 254000 -800000 7600000
+    next_corner: 14400000 7600000 0
+    next_corner: 14400000 1600000 0
+    next_corner: -800000 1600000 0
+    close_polyline: 0
+  n_pins: 36
+    pin: "1" 0 0 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "2" 0 800000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "3" 0 1600000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "4" 0 2400000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "5" 0 3200000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "6" 0 4000000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "7" 0 4800000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "8" 0 5600000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "9" 0 6400000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "10" 0 7200000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "11" 0 8000000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "12" 0 8800000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "13" 0 9600000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "14" 0 10400000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "15" 0 11200000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "16" 0 12000000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "17" 0 12800000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "18" 0 13600000 0 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "19" 0 13600000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "20" 0 12800000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "21" 0 12000000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "22" 0 11200000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "23" 0 10400000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "24" 0 9600000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "25" 0 8800000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "26" 0 8000000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "27" 0 7200000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "28" 0 6400000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "36" 0 0 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "35" 0 800000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "34" 0 1600000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "33" 0 2400000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "32" 0 3200000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "31" 0 4000000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "30" 0 4800000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+    pin: "29" 0 5600000 9200000 0
+      top_pad: 3 2000000 250000 250000 0
+
+name: "bigger20X2HDR-100"
+author: "Ivex"
+source: "INVENTED"
+  units: MIL
+  sel_rect: -42.5 -42.5 1942.5 142.5
+  ref_text: 50 950 160 0 7
+  value_text: 50 950 60 0 7
+  centroid: 0 950 50 0
+  n_pins: 40
+    pin: "1" 35 0 0 0
+      top_pad: 2 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 2 65 25 25 0
+    pin: "2" 35 0 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "3" 35 100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "4" 35 100 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "5" 35 200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "6" 35 200 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "7" 35 300 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "8" 35 300 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "9" 35 400 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "10" 35 400 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "11" 35 500 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "12" 35 500 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "13" 35 600 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "14" 35 600 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "15" 35 700 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "16" 35 700 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "17" 35 800 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "18" 35 800 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "19" 35 900 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "20" 35 900 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "21" 35 1000 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "22" 35 1000 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "23" 35 1100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "24" 35 1100 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "25" 35 1200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "26" 35 1200 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "27" 35 1300 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "28" 35 1300 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "29" 35 1400 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "30" 35 1400 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "31" 35 1500 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "32" 35 1500 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "33" 35 1600 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "34" 35 1600 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "35" 35 1700 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "36" 35 1700 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "37" 35 1800 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "38" 35 1800 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "39" 35 1900 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "40" 35 1900 100 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+
+name: "mark-cap"
+  units: MIL
+  sel_rect: -102.5 -45 292.5 45
+  ref_text: 100 100 200 0 10
+  value_text: 100 204.724409 78.740157 0 10
+  centroid: 0 0 0 0
+  outline_polyline: 10 50 0
+    next_corner: 80 0 0
+    next_corner: 80 30 0
+    next_corner: 80 -30 0
+  outline_polyline: 10 140 0
+    next_corner: 110 0 0
+    next_corner: 110 30 0
+    next_corner: 110 -30 0
+  n_pins: 2
+    pin: "1" 35 -60 0 0
+      top_pad: 1 65 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 0 0 0 0
+    pin: "2" 35 250 0 0
+      top_pad: 1 65 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 0 0 0 0 0
+
+name: "jumper"
+author: "Mark"
+source: "PRINTED CIRCUIT DESIGN METHODS PAGE 411"
+  units: MIL
+  sel_rect: -42.5 -42.5 242.5 42.5
+  ref_text: 50 400 400 0 7
+  value_text: 50 0 47.244094 0 7
+  centroid: 0 250 0 0
+  n_pins: 3
+    pin: "1" 35 0 0 0
+      top_pad: 2 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 2 65 25 25 0
+    pin: "3" 35 100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "5" 35 200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+
+name: "10X1HDR-100"
+author: "Ivex"
+source: "PRINTED CIRCUIT DESIGN METHODS PAGE 411"
+  units: MIL
+  sel_rect: -42.5 -42.5 942.5 42.5
+  ref_text: 50 800 -400 0 7
+  value_text: 50 800 -500 0 7
+  centroid: 0 450 0 0
+  n_pins: 10
+    pin: "1" 35 900 0 0
+      top_pad: 2 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 2 65 25 25 0
+    pin: "3" 35 100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "5" 35 200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "7" 35 300 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "9" 35 400 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "11" 35 500 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "13" 35 600 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "15" 35 700 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "17" 35 800 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "19" 35 0 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+
+name: "8X1HDR-100-inv"
+author: "Mark"
+source: "PRINTED CIRCUIT DESIGN METHODS PAGE 411"
+  units: MIL
+  sel_rect: -42.5 -42.5 742.5 42.5
+  ref_text: 50 600 400 0 7
+  value_text: 50 600 300 0 7
+  centroid: 0 350 0 0
+  n_pins: 8
+    pin: "1" 35 0 0 0
+      top_pad: 2 65 25 25 0
+      top_mask: 2 0 0 0 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 2 65 25 25 0
+      bottom_mask: 2 0 0 0 0
+    pin: "3" 35 100 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "5" 35 200 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "7" 35 300 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "9" 35 400 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "11" 35 500 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "13" 35 600 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+    pin: "15" 35 700 0 0
+      top_pad: 1 65 25 25 0
+      inner_pad: 0 0 0 0 0 0
+      bottom_pad: 1 65 25 25 0
+
+[board]
+
+outline: 4 0
+  corner: 1 0 0 0
+  corner: 2 67310000 0 0
+  corner: 3 67310000 54356000 0
+  corner: 4 0 54356000 0
+
+[solder_mask_cutouts]
+
+
+[parts]
+
+part: H1A
+  ref_text: 1270000 177800 0 20320000 -10160000 0
+  package: ""
+  shape: "10X1HDR-100"
+  pos: 9906000 51816000 0 0 0
+
+part: H2a
+  ref_text: 1270000 177800 0 15240000 -10160000 0
+  package: ""
+  shape: "8X1HDR-100"
+  pos: 36830000 51816000 0 0 0
+
+part: H3
+  ref_text: 1270000 177800 0 15240000 10160000 0
+  package: ""
+  shape: "8X1HDR-100-inv"
+  pos: 19050000 3556000 0 0 0
+
+part: H4
+  ref_text: 1270000 177800 0 10160000 10160000 0
+  package: ""
+  shape: "6X1HDR-100"
+  pos: 41910000 3556000 0 0 0
+
+part: U1
+  ref_text: 1270000 177800 270 2032000 -3048000 1
+  package: ""
+  shape: "max6957-ssop36"
+  pos: 24384000 21082000 0 270 0
+
+part: U2
+  ref_text: 1270000 177800 270 1778000 -3556000 1
+  package: ""
+  shape: "max6957-ssop36"
+  pos: 50038000 21082000 0 270 0
+
+part: H01
+  ref_text: 1270000 177800 0 24384000 -2794000 1
+  package: ""
+  shape: "bigger20X2HDR-100"
+  pos: 5080000 3048000 0 270 0
+
+part: H02
+  ref_text: 1270000 177800 0 24130000 4064000 1
+  package: ""
+  shape: "bigger20X2HDR-100"
+  pos: 64008000 3048000 0 270 0
+
+part: J1
+  ref_text: 1270000 177800 180 3048000 4318000 1
+  package: ""
+  shape: "jumper"
+  pos: 17272000 7366000 0 0 0
+
+part: C2
+  ref_text: 1270000 177800 180 9652000 762000 1
+  package: ""
+  shape: "mark-cap"
+  pos: 42926000 17780000 0 0 0
+
+part: C1
+  ref_text: 1270000 177800 180 3048000 -1778000 1
+  package: ""
+  shape: "mark-cap"
+  pos: 18288000 19050000 0 0 0
+
+part: R2
+  ref_text: 1270000 177800 180 9652000 508000 1
+  package: ""
+  shape: "mark-res"
+  pos: 42926000 15494000 0 0 0
+
+part: R1
+  ref_text: 1270000 177800 180 508000 2540000 1
+  package: ""
+  shape: "mark-res"
+  pos: 36322000 19050000 0 90 0
+
+[nets]
+
+net: "SS" 3 2 0 0 0 0 1
+  pin: 1 H1A.15
+  pin: 2 U1.35
+  pin: 3 U2.35
+  connect: 1 2 0 5 0
+    vtx: 1 40838000 21882000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 33693000 21882000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 33655000 21844000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 33655000 45847000 0 0 0 0 0
+    seg: 4 13 254000 0 0
+    vtx: 5 27559000 51943000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 27686000 51816000 11 0 0 0 0
+  connect: 2 1 0 7 0
+    vtx: 1 15184000 21882000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 17107000 21882000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 17780000 22606000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 17780000 24257000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 20574000 27051000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 20574000 34544000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 27686000 41656000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 27686000 51816000 11 0 0 0 0
+
+net: "CS2" 0 0 0 0 0 0 1
+
+net: "GPIO_02_$G2_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_00_$G2" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G1" 0 0 0 0 0 0 1
+
+net: "GPIO_02_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_00_$G3" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G2" 0 0 0 0 0 0 1
+
+net: "Vdd" 5 4 0 0 0 0 1
+  pin: 1 U1.36
+  pin: 2 J1.3
+  pin: 3 U2.36
+  pin: 4 C2.1
+  pin: 5 C1.1
+  connect: 1 0 1 3 0
+    vtx: 1 15184000 21082000 12 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 15240000 19304000 0 0 711200 355600 0
+    seg: 2 13 508000 0 0
+    vtx: 3 15240000 11938000 0 0 0 0 0
+    seg: 3 13 508000 0 0
+    vtx: 4 19812000 7366000 11 0 0 0 0
+  connect: 2 3 1 6 0
+    vtx: 1 41402000 17780000 11 0 0 0 0
+    seg: 1 13 508000 0 0
+    vtx: 2 39624000 17780000 0 0 0 0 0
+    seg: 2 13 508000 0 0
+    vtx: 3 37592000 15748000 0 0 0 0 0
+    seg: 3 13 508000 0 0
+    vtx: 4 37592000 10160000 0 0 0 0 0
+    seg: 4 13 508000 0 0
+    vtx: 5 36068000 8636000 0 0 0 0 0
+    seg: 5 13 508000 0 0
+    vtx: 6 21082000 8636000 0 0 0 0 0
+    seg: 6 13 508000 0 0
+    vtx: 7 19812000 7366000 11 0 0 0 0
+  connect: 3 3 2 3 0
+    vtx: 1 41402000 17780000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 40894000 18288000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 40894000 20955000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 40838000 21082000 12 0 0 0 0
+  connect: 4 4 0 4 0
+    vtx: 1 16764000 19050000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 16510000 19304000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 15240000 19304000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 15184000 19360000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 15184000 21082000 12 0 0 0 0
+
+net: "U12MOSI" 2 1 0 0 0 0 1
+  pin: 1 U1.4
+  pin: 2 U2.34
+  connect: 1 1 0 3 0
+    vtx: 1 40838000 22682000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 38913000 22682000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 38100000 23495000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 24384000 23482000 12 0 0 0 0
+
+net: "U23MOSI" 0 0 0 0 0 0 1
+
+net: "U34MOSI" 0 0 0 0 0 0 1
+
+net: "GPIO_50" 2 1 0 0 0 0 1
+  pin: 1 U2.23
+  pin: 2 H02.23
+  connect: 1 1 0 11 0
+    vtx: 1 64008000 30988000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 29718000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59436000 29718000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 57531000 31623000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 57531000 36322000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 55118000 38735000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 39878000 38735000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 37338000 36195000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 37338000 33401000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 39243000 31496000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40640000 31496000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 40838000 31482000 12 0 0 0 0
+
+net: "GPIO_02_$G2_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_00_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G3" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G2_$G3" 0 0 0 0 0 0 1
+
+net: "GPIO_02_$G2" 0 0 0 0 0 0 1
+
+net: "v5" 2 1 0 0 0 0 1
+  pin: 1 J1.5
+  pin: 2 H3.9
+  connect: 1 1 0 2 0
+    vtx: 1 29210000 3556000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 25400000 7366000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 22352000 7366000 11 0 0 0 0
+
+net: "GPIO_40" 2 1 0 0 0 0 1
+  pin: 1 U2.13
+  pin: 2 H02.13
+  connect: 1 1 0 12 0
+    vtx: 1 64008000 18288000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 64135000 18288000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 62865000 17018000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 59436000 17018000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 58547000 17907000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 58547000 18796000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 56388000 20955000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 56388000 23114000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 52451000 27051000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 52451000 29718000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 51562000 30607000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 50292000 30607000 0 0 0 0 0
+    seg: 12 12 254000 0 0
+    vtx: 13 50038000 30682000 12 0 0 0 0
+
+net: "GPIO_51" 2 1 0 0 0 0 1
+  pin: 1 U2.24
+  pin: 2 H02.24
+  connect: 1 1 0 10 0
+    vtx: 1 61468000 30988000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59563000 30988000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 58039000 32512000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 58039000 36703000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 55499000 39243000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 39624000 39243000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 36830000 36449000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 36830000 31877000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 37973000 30734000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 40513000 30734000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40838000 30682000 12 0 0 0 0
+
+net: "GPIO_01_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G2_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_02_$G3" 0 0 0 0 0 0 1
+
+net: "GPIO_03_$G2" 0 0 0 0 0 0 1
+
+net: "GPIO_41" 2 1 0 0 0 0 1
+  pin: 1 U2.14
+  pin: 2 H02.14
+  connect: 1 1 0 7 0
+    vtx: 1 61468000 18288000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59944000 18288000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 56896000 21336000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 56896000 23368000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 52959000 27305000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 52959000 30099000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 51576000 31482000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 50038000 31482000 12 0 0 0 0
+
+net: "GPIO_52" 2 1 0 0 0 0 1
+  pin: 1 U2.25
+  pin: 2 H02.25
+  connect: 1 1 0 11 0
+    vtx: 1 64008000 33528000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 32258000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59309000 32258000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 58547000 33020000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 58547000 37084000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 55880000 39751000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 39370000 39751000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 36195000 36576000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 36195000 31242000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 37592000 29845000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40767000 29845000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 40838000 29882000 12 0 0 0 0
+
+net: "GPIO_30" 2 1 0 0 0 0 1
+  pin: 1 H02.3
+  pin: 2 U2.28
+  connect: 1 1 0 10 0
+    vtx: 1 40838000 27482000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 40894000 27432000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 42418000 27432000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 43307000 26543000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 43307000 19050000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 43307000 6858000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 55372000 6858000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 57912000 4318000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 62738000 4318000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 64135000 5715000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 64008000 5588000 11 0 0 0 0
+
+net: "GPIO_02_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_03_$G3" 0 0 0 0 0 0 1
+
+net: "Int1" 1 0 0 0 0 0 1
+  pin: 1 H2a.7
+
+net: "GPIO_42" 2 1 0 0 0 0 1
+  pin: 1 U2.15
+  pin: 2 H02.15
+  connect: 1 1 0 9 0
+    vtx: 1 64008000 20828000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62865000 19685000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59309000 19685000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 57404000 21590000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 57404000 23622000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 53467000 27559000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 53467000 30480000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 51689000 32258000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 50038000 32258000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 50038000 32282000 12 0 0 0 0
+
+net: "GPIO_53" 2 1 0 0 0 0 1
+  pin: 1 U2.27
+  pin: 2 H02.26
+  connect: 1 1 0 10 0
+    vtx: 1 61468000 33528000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 60452000 33528000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59055000 34925000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 59055000 37465000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 56261000 40259000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 39116000 40259000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 35560000 36703000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 35560000 29337000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 36576000 28321000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 40640000 28321000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40838000 28282000 12 0 0 0 0
+
+net: "GPIO_31" 2 1 0 0 0 0 1
+  pin: 1 H02.4
+  pin: 2 U2.26
+  connect: 1 1 0 8 0
+    vtx: 1 40838000 29082000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 41021000 29083000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 43053000 29083000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 43942000 28194000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 43942000 19685000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 43942000 7747000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 55372000 7747000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 57531000 5588000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 61468000 5588000 11 0 0 0 0
+
+net: "GPIO_03_$G4" 0 0 0 0 0 0 1
+
+net: "N00001" 0 0 0 0 0 0 1
+
+net: "Int2" 1 0 0 0 0 0 1
+  pin: 1 H2a.11
+
+net: "GPIO_20" 2 1 0 0 0 0 1
+  pin: 1 U1.21
+  pin: 2 H01.21
+  connect: 1 1 0 5 0
+    vtx: 1 5080000 28448000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 10541000 28448000 0 0 711200 355600 0
+    seg: 2 13 254000 0 0
+    vtx: 3 10541000 30480000 0 0 711200 355600 0
+    seg: 3 12 254000 0 0
+    vtx: 4 13141960 33080960 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 13524000 33082000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 15184000 33082000 12 0 0 0 0
+
+net: "GPIO_43" 2 1 0 0 0 0 1
+  pin: 1 U2.16
+  pin: 2 H02.16
+  connect: 1 1 0 7 0
+    vtx: 1 61468000 20828000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59817000 20828000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 57912000 22733000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 57912000 23876000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 53975000 27813000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 53975000 30863540 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 51757580 33080960 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 50038000 33082000 12 0 0 0 0
+
+net: "GPIO_32" 2 1 0 0 0 0 1
+  pin: 1 H02.5
+  pin: 2 U2.5
+  connect: 1 1 0 8 0
+    vtx: 1 50038000 24282000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 53817520 24279860 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 54737000 23378160 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 54737000 19304000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 56261000 17780000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 56261000 7874000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 57404000 6731000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 62611000 6731000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 64008000 8128000 11 0 0 0 0
+
+net: "GPIO_00_$G2_$G3" 0 0 0 0 0 0 1
+
+net: "N00002" 0 0 0 0 0 0 1
+
+net: "GPIO_10" 2 1 0 0 0 0 1
+  pin: 1 U1.10
+  pin: 2 H01.11
+  connect: 1 1 0 7 0
+    vtx: 1 5080000 15748000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 7239000 15748000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 9398000 13589000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 30226000 13589000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 30226000 24638000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 26543000 28321000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 24511000 28321000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 24384000 28282000 12 0 0 0 0
+
+net: "SCK" 3 2 0 0 0 0 1
+  pin: 1 U1.33
+  pin: 2 U2.33
+  pin: 3 H1A.9
+  connect: 1 1 2 7 0
+    vtx: 1 40838000 23482000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 39129000 23482000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 38608000 24003000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 34417000 24003000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 27178000 31242000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 27178000 35560000 0 0 711200 355600 0
+    seg: 6 13 254000 0 0
+    vtx: 7 20066000 42672000 0 0 0 0 0
+    seg: 7 13 254000 0 0
+    vtx: 8 20066000 51816000 11 0 0 0 0
+  connect: 2 2 0 10 0
+    vtx: 1 20066000 51816000 11 0 0 0 0
+    seg: 1 13 254000 0 0
+    vtx: 2 14986000 46736000 0 0 0 0 0
+    seg: 2 13 254000 0 0
+    vtx: 3 14986000 37465000 0 0 0 0 0
+    seg: 3 13 254000 0 0
+    vtx: 4 11303000 33782000 0 0 0 0 0
+    seg: 4 13 254000 0 0
+    vtx: 5 11303000 27940000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 9652000 26289000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 9652000 24765000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 11938000 22479000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 12954000 22479000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 13957000 23482000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 15184000 23482000 12 0 0 0 0
+
+net: "GPIO_21" 2 1 0 0 0 0 1
+  pin: 1 U1.22
+  pin: 2 H01.22
+  connect: 1 1 0 4 0
+    vtx: 1 2540000 28448000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 29718000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 11049000 29718000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 13613000 32282000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 15184000 32282000 12 0 0 0 0
+
+net: "GPIO_54" 2 1 0 0 0 0 1
+  pin: 1 U2.29
+  pin: 2 H02.27
+  connect: 1 1 0 11 0
+    vtx: 1 64008000 36068000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 34798000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 60960000 34798000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 59563000 36195000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 59563000 37846000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 56642000 40767000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 38862000 40767000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 34925000 36830000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 34925000 27305000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 35560000 26670000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40894000 26670000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 40838000 26682000 12 0 0 0 0
+
+net: "ISET1" 2 1 0 0 0 0 1
+  pin: 1 U1.1
+  pin: 2 R1.1
+  connect: 1 1 0 3 0
+    vtx: 1 36322000 20574000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 29972000 20574000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 29464000 21082000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 24384000 21082000 12 0 0 0 0
+
+net: "GPIO_44" 2 1 0 0 0 0 1
+  pin: 1 U2.17
+  pin: 2 H02.17
+  connect: 1 1 0 9 0
+    vtx: 1 64008000 23368000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 22098000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59436000 22098000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 58420000 23114000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 58420000 24130000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 54483000 28067000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 54483000 31242000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 51816000 33909000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 50165000 33909000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 50038000 33882000 12 0 0 0 0
+
+net: "GPIO_33" 2 1 0 0 0 0 1
+  pin: 1 H02.6
+  pin: 2 U2.7
+  connect: 1 1 0 8 0
+    vtx: 1 50038000 25882000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 50038000 25908000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 52832000 25908000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 55499000 23241000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 55499000 20574000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 57404000 18669000 0 0 711200 355600 0
+    seg: 6 13 254000 0 0
+    vtx: 7 57404000 8536940 0 0 711200 355600 0
+    seg: 7 12 254000 0 0
+    vtx: 8 57741820 8128000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 61468000 8128000 11 0 0 0 0
+
+net: "GPIO_00_$G2_$G4" 0 0 0 0 0 0 1
+
+net: "N00003" 0 0 0 0 0 0 1
+
+net: "GPIO_00" 2 1 0 0 0 0 1
+  pin: 1 U1.32
+  pin: 2 H01.1
+  connect: 1 1 0 4 0
+    vtx: 1 5080000 3048000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 12446000 3048000 0 0 711200 355600 0
+    seg: 2 13 254000 0 0
+    vtx: 3 12446000 23114000 0 0 711200 355600 0
+    seg: 3 12 254000 0 0
+    vtx: 4 13614000 24282000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 15184000 24282000 12 0 0 0 0
+
+net: "SCL" 1 0 0 0 0 0 1
+  pin: 1 H4.11
+
+net: "GPIO_22" 2 1 0 0 0 0 1
+  pin: 1 U1.23
+  pin: 2 H01.23
+  connect: 1 1 0 8 0
+    vtx: 1 5080000 30988000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 4826000 30988000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 6350000 30988000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 11557000 36195000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 16256000 36195000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 17018000 35433000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 17018000 31877000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 16623000 31482000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 15184000 31482000 12 0 0 0 0
+
+net: "GPIO_11" 2 1 0 0 0 0 1
+  pin: 1 U1.12
+  pin: 2 H01.12
+  connect: 1 1 0 8 0
+    vtx: 1 2540000 15748000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3937000 17018000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 7493000 17018000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 10033000 14478000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 32004000 14478000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 32004000 24638000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 26797000 29845000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 24511000 29845000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 24384000 29882000 12 0 0 0 0
+
+net: "GPIO_55" 2 1 0 0 0 0 1
+  pin: 1 U2.31
+  pin: 2 H02.28
+  connect: 1 1 0 11 0
+    vtx: 1 61468000 36068000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 60071000 37465000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 60071000 38227000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 57023000 41275000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 38608000 41275000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 34290000 36957000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 34290000 25146000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 34925000 24511000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 38862000 24511000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 39370000 25019000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40767000 25019000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 40838000 25082000 12 0 0 0 0
+
+net: "ISET2" 2 1 0 0 0 0 1
+  pin: 1 U2.1
+  pin: 2 R2.2
+  connect: 1 1 0 4 0
+    vtx: 1 49276000 15494000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 52451000 18669000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 52451000 20447000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 51816000 21082000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 50038000 21082000 12 0 0 0 0
+
+net: "GPIO_45" 2 1 0 0 0 0 1
+  pin: 1 U2.18
+  pin: 2 H02.18
+  connect: 1 1 0 6 0
+    vtx: 1 61468000 23368000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59944000 23368000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 54991000 28321000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 54991000 31750000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 52070000 34671000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 50165000 34671000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 50038000 34682000 12 0 0 0 0
+
+net: "GPIO_34" 2 1 0 0 0 0 1
+  pin: 1 H02.7
+  pin: 2 U2.9
+  connect: 1 1 0 6 0
+    vtx: 1 50038000 27482000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 48183000 27482000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 46482000 25781000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 46482000 19685000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 46482000 9398000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 62738000 9398000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 64008000 10668000 11 0 0 0 0
+
+net: "GPIO_03_$G2_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_00_$G2_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_00_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "N00004" 0 0 0 0 0 0 1
+
+net: "GPIO_01" 2 1 0 0 0 0 1
+  pin: 1 U1.30
+  pin: 2 H01.2
+  connect: 1 1 0 6 0
+    vtx: 1 2540000 3048000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3937000 4445000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 11811000 4445000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 11811000 24384000 0 0 711200 355600 0
+    seg: 4 12 254000 0 0
+    vtx: 5 13335000 25908000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 15113000 25908000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 15184000 25882000 12 0 0 0 0
+
+net: "GPIO_23" 2 1 0 0 0 0 1
+  pin: 1 U1.24
+  pin: 2 H01.24
+  connect: 1 1 0 9 0
+    vtx: 1 2540000 30988000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 2794000 31115000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 3937000 32258000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 6858000 32258000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 11303000 36703000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 16637000 36703000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 17526000 35814000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 17526000 30988000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 17220000 30682000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 15184000 30682000 12 0 0 0 0
+
+net: "GPIO_12" 2 1 0 0 0 0 1
+  pin: 1 U1.13
+  pin: 2 H01.13
+  connect: 1 1 0 6 0
+    vtx: 1 5080000 18288000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 7493000 18288000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 10541000 15240000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 32893000 15240000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 32893000 24638000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 26852880 30680660 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 24384000 30682000 12 0 0 0 0
+
+net: "GPIO_56" 0 0 0 0 0 0 1
+
+net: "GPIO_46" 2 1 0 0 0 0 1
+  pin: 1 U2.19
+  pin: 2 H02.19
+  connect: 1 1 0 9 0
+    vtx: 1 64008000 25908000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 24638000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59563000 24638000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 55499000 28702000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 55499000 34544000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 53340000 36703000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 44831000 36703000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 42799000 34671000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 41402000 34671000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 40838000 34682000 12 0 0 0 0
+
+net: "GPIO_35" 2 1 0 0 0 0 1
+  pin: 1 H02.8
+  pin: 2 U2.11
+  connect: 1 1 0 6 0
+    vtx: 1 50038000 29082000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 48257460 29080460 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 45212000 26035000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 45212000 19685000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 45212000 10668000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 61722000 10668000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 61468000 10668000 11 0 0 0 0
+
+net: "GPIO_02" 2 1 0 0 0 0 1
+  pin: 1 U1.28
+  pin: 2 H01.3
+  connect: 1 1 0 4 0
+    vtx: 1 5080000 5588000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 11176000 5588000 0 0 711200 355600 0
+    seg: 2 13 254000 0 0
+    vtx: 3 11176000 25273000 0 0 711200 355600 0
+    seg: 3 12 254000 0 0
+    vtx: 4 13383260 27480260 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 15184000 27482000 12 0 0 0 0
+
+net: "MOSI" 2 1 0 0 0 0 1
+  pin: 1 U1.34
+  pin: 2 H1A.13
+  connect: 1 1 0 7 0
+    vtx: 1 25146000 51816000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 25146000 43434000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 20066000 38354000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 20066000 27686000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 17018000 24638000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 17018000 23241000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 16456660 22679660 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 15184000 22682000 12 0 0 0 0
+
+net: "MISO" 2 1 0 0 0 0 1
+  pin: 1 H1A.11
+  pin: 2 U2.4
+  connect: 1 1 0 5 0
+    vtx: 1 50038000 23482000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 53467000 23495000 0 0 711200 355600 0
+    seg: 2 13 254000 0 0
+    vtx: 3 53467000 34925000 0 0 0 0 0
+    seg: 3 13 254000 0 0
+    vtx: 4 45593000 42799000 0 0 0 0 0
+    seg: 4 13 254000 0 0
+    vtx: 5 31623000 42799000 0 0 0 0 0
+    seg: 5 13 254000 0 0
+    vtx: 6 22606000 51816000 11 0 0 0 0
+
+net: "GPIO_24" 2 1 0 0 0 0 1
+  pin: 1 U1.25
+  pin: 2 H01.25
+  connect: 1 1 0 7 0
+    vtx: 1 5080000 33528000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 7366000 33528000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 11049000 37211000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 16891000 37211000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 18034000 36068000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 18034000 30607000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 17309000 29882000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 15184000 29882000 12 0 0 0 0
+
+net: "GPIO_13" 2 1 0 0 0 0 1
+  pin: 1 U1.14
+  pin: 2 H01.14
+  connect: 1 1 0 12 1
+    vtx: 1 2540000 18288000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 2413000 18415000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 3810000 19685000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 8636000 19685000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 12573000 15748000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 19177000 15748000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 20701000 17272000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 20701000 23368000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 22987000 25654000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 22987000 31242000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 23241000 31496000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 24638000 31496000 0 0 0 0 0
+    seg: 12 12 254000 0 0
+    vtx: 13 24384000 31482000 12 0 0 0 0
+
+net: "GPIO_36" 2 1 0 0 0 0 1
+  pin: 1 U2.6
+  pin: 2 H02.9
+  connect: 1 1 0 8 0
+    vtx: 1 64008000 13208000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 11938000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59817000 11938000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 59182000 11303000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 47752000 11303000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 47752000 19558000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 47752000 24511000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 48323000 25082000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 50038000 25082000 12 0 0 0 0
+
+net: "GPIO_47" 2 1 0 0 0 0 1
+  pin: 1 U2.20
+  pin: 2 H02.20
+  connect: 1 1 0 9 0
+    vtx: 1 61468000 25908000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59436000 25908000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 56007000 29337000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 56007000 35052000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 53848000 37211000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 40767000 37211000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 38989000 35433000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 38989000 34798000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 39878000 33909000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 40838000 33882000 12 0 0 0 0
+
+net: "GPIO_03" 2 1 0 0 0 0 1
+  pin: 1 U1.26
+  pin: 2 H01.4
+  connect: 1 1 0 6 0
+    vtx: 1 2540000 5588000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3683000 6731000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 10541000 6731000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 10541000 26035000 0 0 711200 355600 0
+    seg: 4 12 254000 0 0
+    vtx: 5 13586460 29080460 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 13840460 29080460 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 15184000 29082000 12 0 0 0 0
+
+net: "Gnd" 10 9 0 0 0 0 1
+  pin: 1 H3.11
+  pin: 2 H3.13
+  pin: 3 U1.2
+  pin: 4 U1.3
+  pin: 5 U2.2
+  pin: 6 U2.3
+  pin: 7 C2.2
+  pin: 8 C1.2
+  pin: 9 R2.1
+  pin: 10 R1.2
+  connect: 1 0 1 1 0
+    vtx: 1 31750000 3556000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 34290000 3556000 11 0 0 0 0
+  connect: 2 7 0 7 0
+    vtx: 1 24638000 19050000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 30607000 19050000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 33909000 15748000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 33909000 14351000 0 0 0 0 0
+    seg: 4 12 508000 0 0
+    vtx: 5 32639000 13081000 0 0 0 0 0
+    seg: 5 12 508000 0 0
+    vtx: 6 32639000 10287000 0 0 0 0 0
+    seg: 6 12 508000 0 0
+    vtx: 7 31750000 9398000 0 0 0 0 0
+    seg: 7 12 508000 0 0
+    vtx: 8 31750000 3556000 11 0 0 0 0
+  connect: 3 5 4 2 0
+    vtx: 1 50038000 22682000 12 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 50038000 21971000 0 0 0 0 0
+    seg: 2 6 0 0 0
+    vtx: 3 50038000 21882000 12 0 0 0 0
+  connect: 4 6 4 5 0
+    vtx: 1 49276000 17780000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 48514000 18542000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 48514000 21590000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 48768000 21844000 0 0 0 0 0
+    seg: 4 12 508000 0 0
+    vtx: 5 48806000 21882000 0 0 0 0 0
+    seg: 5 12 508000 0 0
+    vtx: 6 50038000 21882000 12 0 0 0 0
+  connect: 5 9 8 2 0
+    vtx: 1 36322000 12700000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 38608000 12700000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 41402000 15494000 11 0 0 0 0
+  connect: 6 8 6 3 0
+    vtx: 1 41402000 15494000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 42672000 16764000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 48260000 16764000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 49276000 17780000 11 0 0 0 0
+  connect: 7 9 1 4 0
+    vtx: 1 36322000 12700000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 34925000 12700000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 34290000 12065000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 34290000 3683000 0 0 0 0 0
+    seg: 4 12 508000 0 0
+    vtx: 5 34290000 3556000 11 0 0 0 0
+  connect: 8 3 2 1 0
+    vtx: 1 24384000 22682000 12 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 24384000 21882000 12 0 0 0 0
+  connect: 9 7 2 6 0
+    vtx: 1 24638000 19050000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 24511000 19050000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 23241000 19050000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 22479000 19812000 0 0 0 0 0
+    seg: 4 12 508000 0 0
+    vtx: 5 22479000 21336000 0 0 0 0 0
+    seg: 5 12 508000 0 0
+    vtx: 6 23025000 21882000 0 0 0 0 0
+    seg: 6 12 508000 0 0
+    vtx: 7 24384000 21882000 12 0 0 0 0
+
+net: "GPIO_25" 2 1 0 0 0 0 1
+  pin: 1 U1.27
+  pin: 2 H01.26
+  connect: 1 1 0 9 0
+    vtx: 1 2540000 33528000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 2794000 33655000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 3937000 34798000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 7874000 34798000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 10795000 37719000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 17145000 37719000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 18542000 36322000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 18542000 30226000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 16598000 28282000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 15184000 28282000 12 0 0 0 0
+
+net: "GPIO_14" 2 1 0 0 0 0 1
+  pin: 1 U1.15
+  pin: 2 H01.15
+  connect: 1 1 0 9 0
+    vtx: 1 5080000 20828000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 8763000 20828000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 13335000 16256000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 18923000 16256000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 20193000 17526000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 20193000 23622000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 22606000 26035000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 22606000 31877000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 23011000 32282000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 24384000 32282000 12 0 0 0 0
+
+net: "GPIO_37" 2 1 0 0 0 0 1
+  pin: 1 U2.8
+  pin: 2 H02.10
+  connect: 1 1 0 7 0
+    vtx: 1 61468000 13208000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59690000 13208000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 58420000 11938000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 47117000 11938000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 47117000 19050000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 47117000 25654000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 48143160 26680160 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 50038000 26682000 12 0 0 0 0
+
+net: "GPIO_48" 2 1 0 0 0 0 1
+  pin: 1 U2.21
+  pin: 2 H02.21
+  connect: 1 1 0 11 0
+    vtx: 1 64008000 28448000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 62738000 27178000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 59563000 27178000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 56515000 30226000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 56515000 35433000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 54229000 37719000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 40386000 37719000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 38354000 35687000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 38354000 34417000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 39751000 33020000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40640000 33020000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 40838000 33082000 12 0 0 0 0
+
+net: "GPIO_04" 1 0 0 0 0 0 1
+  pin: 1 H01.5
+
+net: "GPIO_26" 2 1 0 0 0 0 1
+  pin: 1 U1.29
+  pin: 2 H01.27
+  connect: 1 1 0 8 0
+    vtx: 1 5080000 36068000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 4953000 36068000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8382000 36068000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 10541000 38227000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 17399000 38227000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 19050000 36576000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 19050000 29083000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 16649000 26682000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 15184000 26682000 12 0 0 0 0
+
+net: "GPIO_15" 2 1 0 0 0 0 1
+  pin: 1 U1.16
+  pin: 2 H01.16
+  connect: 1 1 0 11 0
+    vtx: 1 2540000 20828000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 22098000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8509000 22098000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 13843000 16764000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 18669000 16764000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 19685000 17780000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 19685000 23876000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 22098000 26289000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 22098000 32258000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 22987000 33147000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 24130000 33147000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 24384000 33082000 12 0 0 0 0
+
+net: "GPIO_38" 2 1 0 0 0 0 1
+  pin: 1 U2.10
+  pin: 2 H02.11
+  connect: 1 1 0 9 0
+    vtx: 1 64008000 15748000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 63881000 15748000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 62738000 14605000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 59563000 14605000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 57658000 12700000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 45847000 12700000 0 0 711200 355600 0
+    seg: 6 13 254000 0 0
+    vtx: 7 45847000 19050000 0 0 711200 355600 0
+    seg: 7 12 254000 0 0
+    vtx: 8 45847000 25908000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 48219360 28280360 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 50038000 28282000 12 0 0 0 0
+
+net: "GPIO_49" 2 1 0 0 0 0 1
+  pin: 1 U2.22
+  pin: 2 H02.22
+  connect: 1 1 0 10 0
+    vtx: 1 61468000 28448000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59309000 28448000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 57023000 30734000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 57023000 35941000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 54737000 38227000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 40132000 38227000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 37846000 35941000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 37846000 33782000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 39370000 32258000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 40767000 32258000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 40838000 32282000 12 0 0 0 0
+
+net: "GPIO_03_$G2_$G3" 0 0 0 0 0 0 1
+
+net: "SDA" 1 0 0 0 0 0 1
+  pin: 1 H4.9
+
+net: "GPIO_05" 2 1 0 0 0 0 1
+  pin: 1 U1.7
+  pin: 2 H01.6
+  connect: 1 1 0 5 0
+    vtx: 1 2540000 8128000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 9398000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 27559000 9398000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 27559000 24638000 0 0 711200 355600 0
+    seg: 4 12 254000 0 0
+    vtx: 5 26316940 25880060 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 24384000 25882000 12 0 0 0 0
+
+net: "GPIO_27" 2 1 0 0 0 0 1
+  pin: 1 U1.31
+  pin: 2 H01.28
+  connect: 1 1 0 9 0
+    vtx: 1 2540000 36068000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 37338000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8890000 37338000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 10287000 38735000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 17653000 38735000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 19558000 36830000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 19558000 27940000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 16637000 25019000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 15367000 25019000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 15184000 25082000 12 0 0 0 0
+
+net: "GPIO_16" 2 1 0 0 0 0 1
+  pin: 1 U1.17
+  pin: 2 H01.17
+  connect: 1 1 0 10 0
+    vtx: 1 5080000 23368000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 8255000 23368000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 14351000 17272000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 18415000 17272000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 19177000 18034000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 19177000 24130000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 21590000 26543000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 21590000 33274000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 22225000 33909000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 24130000 33909000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 24384000 33882000 12 0 0 0 0
+
+net: "GPIO-04" 1 0 0 0 0 0 1
+  pin: 1 U1.5
+
+net: "GPIO_39" 2 1 0 0 0 0 1
+  pin: 1 U2.12
+  pin: 2 H02.12
+  connect: 1 1 0 7 0
+    vtx: 1 61468000 15748000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 59309000 15748000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 56896000 13335000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 44577000 13335000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 44577000 19050000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 44577000 26162000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 48295560 29880560 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 50038000 29882000 12 0 0 0 0
+
+net: "GPIO_03_$G2_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_17" 2 1 0 0 0 0 1
+  pin: 1 U1.18
+  pin: 2 H01.18
+  connect: 1 1 0 13 0
+    vtx: 1 2540000 23368000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 24638000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8890000 24638000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 10033000 23495000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 10033000 22352000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 14605000 17780000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 18161000 17780000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 18669000 18288000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 18669000 24257000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 21082000 26670000 0 0 0 0 0
+    seg: 10 12 254000 0 0
+    vtx: 11 21082000 33782000 0 0 0 0 0
+    seg: 11 12 254000 0 0
+    vtx: 12 21971000 34671000 0 0 0 0 0
+    seg: 12 12 254000 0 0
+    vtx: 13 24130000 34671000 0 0 0 0 0
+    seg: 13 12 254000 0 0
+    vtx: 14 24384000 34682000 12 0 0 0 0
+
+net: "GPIO_06" 2 1 0 0 0 0 1
+  pin: 1 U1.9
+  pin: 2 H01.7
+  connect: 1 1 0 6 0
+    vtx: 1 5080000 10668000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 7112000 10668000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 7747000 10033000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 29337000 10033000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 29337000 24638000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 26476960 27503120 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 24384000 27482000 12 0 0 0 0
+
+net: "GPIO_28" 2 1 0 0 0 0 1
+  pin: 1 H02.1
+  pin: 2 U2.32
+  connect: 1 1 0 9 0
+    vtx: 1 40838000 24282000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 40894000 24257000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 42164000 24257000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 42672000 23749000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 42672000 19685000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 42672000 5588000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 54864000 5588000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 58801000 1651000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 62611000 1651000 0 0 0 0 0
+    seg: 9 12 254000 0 0
+    vtx: 10 64008000 3048000 11 0 0 0 0
+
+net: "GPIO_29" 2 1 0 0 0 0 1
+  pin: 1 H02.2
+  pin: 2 U2.30
+  connect: 1 1 0 7 0
+    vtx: 1 40838000 25882000 12 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 40894000 25908000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 35052000 25908000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 35052000 10795000 0 0 711200 355600 0
+    seg: 4 12 254000 0 0
+    vtx: 5 39624000 6223000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 55118000 6223000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 58293000 3048000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 61468000 3048000 11 0 0 0 0
+
+net: "GPIO_03_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "GPIO_01_$G2_$G3_$G4" 0 0 0 0 0 0 1
+
+net: "24v" 0 0 0 0 0 0 1
+
+net: "GPIO-06" 0 0 0 0 0 0 1
+
+net: "GPIO_07" 2 1 0 0 0 0 1
+  pin: 1 U1.11
+  pin: 2 H01.8
+  connect: 1 1 0 8 0
+    vtx: 1 2540000 10668000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 11938000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 6858000 11938000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 8128000 10668000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 31115000 10668000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 31115000 24638000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 26797000 28956000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 24384000 28956000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 24384000 29082000 12 0 0 0 0
+
+net: "GPIO_18" 2 1 0 0 0 0 1
+  pin: 1 U1.19
+  pin: 2 H01.19
+  connect: 1 1 0 5 0
+    vtx: 1 5080000 25908000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 4953000 25908000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8509000 25908000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 8509000 30480000 0 0 711200 355600 0
+    seg: 4 12 254000 0 0
+    vtx: 5 12711000 34682000 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 15184000 34682000 12 0 0 0 0
+
+net: "GPIO_08" 2 1 0 0 0 0 1
+  pin: 1 U1.6
+  pin: 2 H01.9
+  connect: 1 1 0 7 0
+    vtx: 1 5080000 13208000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 6350000 13208000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 8255000 11303000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 26670000 11303000 0 0 711200 355600 0
+    seg: 4 13 254000 0 0
+    vtx: 5 26670000 24638000 0 0 711200 355600 0
+    seg: 5 12 254000 0 0
+    vtx: 6 26162000 25146000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 24765000 25146000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 24384000 25082000 12 0 0 0 0
+
+net: "GPIO_19" 2 1 0 0 0 0 1
+  pin: 1 U1.20
+  pin: 2 H01.20
+  connect: 1 1 0 6 0
+    vtx: 1 2540000 25908000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 27178000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 9525000 27178000 0 0 711200 355600 0
+    seg: 3 13 254000 0 0
+    vtx: 4 9525000 30480000 0 0 711200 355600 0
+    seg: 4 12 254000 0 0
+    vtx: 5 12926060 33881060 0 0 0 0 0
+    seg: 5 12 254000 0 0
+    vtx: 6 13308000 33882000 0 0 0 0 0
+    seg: 6 12 254000 0 0
+    vtx: 7 15184000 33882000 12 0 0 0 0
+
+net: "v33" 2 1 0 0 0 0 1
+  pin: 1 H3.7
+  pin: 2 J1.1
+  connect: 1 1 0 3 0
+    vtx: 1 17272000 7366000 11 0 0 0 0
+    seg: 1 12 508000 0 0
+    vtx: 2 19177000 5461000 0 0 0 0 0
+    seg: 2 12 508000 0 0
+    vtx: 3 24765000 5461000 0 0 0 0 0
+    seg: 3 12 508000 0 0
+    vtx: 4 26670000 3556000 11 0 0 0 0
+
+net: "GPIO_02_$G2_$G3" 0 0 0 0 0 0 1
+
+net: "GPIO_00_$G1" 0 0 0 0 0 0 1
+
+net: "CS" 0 0 0 0 0 0 1
+
+net: "GPIO_09" 2 1 0 0 0 0 1
+  pin: 1 U1.8
+  pin: 2 H01.10
+  connect: 1 1 0 8 0
+    vtx: 1 2540000 13208000 11 0 0 0 0
+    seg: 1 12 254000 0 0
+    vtx: 2 3810000 14478000 0 0 0 0 0
+    seg: 2 12 254000 0 0
+    vtx: 3 6985000 14478000 0 0 0 0 0
+    seg: 3 12 254000 0 0
+    vtx: 4 9398000 12065000 0 0 0 0 0
+    seg: 4 12 254000 0 0
+    vtx: 5 28448000 12065000 0 0 711200 355600 0
+    seg: 5 13 254000 0 0
+    vtx: 6 28448000 24638000 0 0 711200 355600 0
+    seg: 6 12 254000 0 0
+    vtx: 7 26416000 26670000 0 0 0 0 0
+    seg: 7 12 254000 0 0
+    vtx: 8 24384000 26670000 0 0 0 0 0
+    seg: 8 12 254000 0 0
+    vtx: 9 24384000 26682000 12 0 0 0 0
+
+[texts]
+
+text: "+3.3v" 27305000 4826000 7 270 0 1000000 100000 0
+
+text: "Gnd" 32385000 4826000 7 270 0 1000000 100000 0
+
+text: "Gnd" 34925000 4826000 7 270 0 1000000 100000 0
+
+text: "+5v" 29718000 4826000 7 270 0 1000000 100000 0
+
+text: "SCK" 20574000 47752000 7 270 0 1000000 100000 0
+
+text: "MISO" 23114000 47244000 7 270 0 1000000 100000 0
+
+text: "MOSI" 25654000 47244000 7 270 0 1000000 100000 0
+
+text: "1" 26416000 20828000 7 180 0 1270000 177800 0
+
+text: "SPI 56-PORT GPIO Expander" 55372000 45720000 7 180 0 2000001 299999 0
+
+text: "(C) Emutex 2013 - Rev 1A" 54102000 42418000 7 180 0 2000001 299999 0
+
+text: "+3.3v" 19050000 9652000 7 180 0 1016000 101600 0
+
+text: "+5v" 23876000 9652000 7 180 0 1016000 101600 0
+
+text: "1" 50292000 20574000 7 180 0 1270000 177800 0
+
+text: "SS" 28194000 48768000 7 270 0 1000000 99999 0
+
+[end]

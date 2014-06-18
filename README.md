@@ -20,6 +20,9 @@ Emutex_MAX9657.cpp and Emutex_MAX9657.h
 Place the Emutex_MAX9657 library folder in your Arduino libraries folder, and
 restart the IDE.
 
+The PCB CAD file for the GPIO shield, created with FreePCB 1.359, can be found
+in the PCB sub-folder.
+
 ## TODO
 
 * Add support for GPIO input modes
